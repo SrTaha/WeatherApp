@@ -559,9 +559,8 @@ video {
   margin-right: auto;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .me-2 {
@@ -572,14 +571,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
 .flex {
   display: flex;
 }
@@ -588,20 +579,12 @@ video {
   height: 2.5rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .w-full {
   width: 100%;
 }
 
 .flex-col {
   flex-direction: column;
-}
-
-.items-center {
-  align-items: center;
 }
 
 .rounded-2xl {
@@ -624,11 +607,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .px-2 {
@@ -661,19 +639,14 @@ video {
   font-weight: 600;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
 .text-red-700 {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .filter {
@@ -694,14 +667,6 @@ video {
 
 .placeholder\:font-mono::placeholder {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-.placeholder\:font-black::-moz-placeholder {
-  font-weight: 900;
-}
-
-.placeholder\:font-black::placeholder {
-  font-weight: 900;
 }
 
 @media (min-width: 1024px) {

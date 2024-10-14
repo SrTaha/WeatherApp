@@ -5,6 +5,11 @@ function GetData(city) {
   fetch(`https://api.weatherapi.com/v1/current.json?key=${ApiKey}&q=${city}`)
     .then((response) => response.json())
     .then((Data) => {
-      console.log(Data);
+      console.log(Data["current"]);
+      ShowData(Data["current"]);
     });
+}
+
+function ShowData(weather) {
+  console.log(weather);
 }
